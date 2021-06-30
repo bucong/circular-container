@@ -23,17 +23,18 @@ circularContainer({
   width: 200,
   height: 200,
   color: '#000',
+  padding: 5,
   background: 'deepskyblue',
   emptyFirstLine: true
 })
 ```
-Parameter | Explanation
-----|----
-text | 文本（必填）
-fontSize |  字体大小
-width | 宽度
-height | 高度
-color | 文字的颜色
-background | 背景颜色
-emptyFirstLine | 空出首行
-padding | 内边距
+Parameter | Explanation | 必填 | default
+----|----|----|----
+text | 文本 | 是 | 
+fontSize | 字体大小 | 否 | 14
+width | 宽度 | 否 | 200
+height | 高度 | 否 | 等于width
+color | 文字的颜色 | 否 | #000
+background | 背景颜色 | 否 | deepskyblue
+emptyFirstLine | 空出首行 | 否 | false
+padding | 内边距 | 否 | 0

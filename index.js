@@ -2,7 +2,7 @@
  * @Author: Cong.Bu 
  * @Date: 2021-06-30 10:32:57 
  * @Last Modified by: Cong.Bu
- * @Last Modified time: 2021-06-30 11:03:42
+ * @Last Modified time: 2021-06-30 14:49:25
  */
 
 /*
@@ -21,7 +21,7 @@ var circularContainer = (data) => {
     if (!data.height) data.width = 200
     if (!data.height) data.height = data.width
     if (!data.fontSize) data.fontSize = 14
-    if (!data.padding) data.padding = 5
+    if (!data.padding) data.padding = 0
     if (!data.color) data.color = '#000'
     if (!data.background) data.background = 'deepskyblue'
     if (!data.emptyFirstLine) data.emptyFirstLine = false
