@@ -1,0 +1,22 @@
+{
+  "name": "circular-container",
+  "version": "1.0.2",
+  "description": "circular-container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bucong/circular-container.git"
+  },
+  "keywords": [
+    "circular-container"
+  ],
+  "author": "bucong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bucong/circular-container/issues"
+  },
+  "homepage": "https://github.com/bucong/circular-container#readme"
+}
