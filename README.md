@@ -9,25 +9,26 @@ Not support IE 不支持IE浏览器
 npm install circular-container --save
 ```
 ## Usage
-**In template**
 
 ```html
-<div id="circular-container"></div>
+<circular-container :text="text" />
 ```
 
 ```js
-import circularContainer from "circular-container"
-circularContainer({
-  text: "长文本",
-  fontSize: 14,
-  width: 200,
-  height: 200,
-  color: '#000',
-  padding: 5,
-  background: 'deepskyblue',
-  emptyFirstLine: true
-})
+import circularContainer from 'circular-container'
+export default {
+  components: {
+    circularContainer
+  },
+  data () {
+    return {
+      text: '我是长文本，我是长文本，我是长文本，我是长文本，我是长文本，我是长文本，我是长文本，我是长文本，我是长文本，我是长文本，我是长文本'
+    }
+  }
+}
 ```
+
+## Params
 Parameter | Explanation | 必填 | default
 ----|----|----|----
 text | 文本 | 是 | 
